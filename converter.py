@@ -27,4 +27,16 @@ def connect_to_exchange_rate_api():
 
 
 ## The script defines three function: convert_currency(), get_exchange_rate(), and connect_to_exchange_rate_api(). Th convert_currency() function is the main function that you would use to convert one currency into another. It take three arguments: the amount of money you want to convert, the currency you want to convert from, and the currency you want to convert to. The get_exchange_rate() function is used to get the current exchange rate between the two currencies, and the connect_to_exchange_rate_api() function is used to connect to the currency exchange rate API that provides the exchange rates
+
+## We can aswell attach the code below for the user interface
+amount = 100
+from_currency = "USD"
+to_currency = "EUR"
+
+converted_amount = convert_currency(amount, from_currency, to_currency)
+
+# Print the converted amount
+print(converted_amount)
+
+
 # Hopefully that makes sense. Follow me on github at @AnthonyByansi
